@@ -32,7 +32,8 @@ The experiments are conducted on:
 
 # Dataset Structure
 To use your own dataset, follow this structure:
-'''dataset/ 
+'''bash
+dataset/ 
 |- class_0/ 
 |     |- img1.jpg 
 |     |- img2.jpg 
