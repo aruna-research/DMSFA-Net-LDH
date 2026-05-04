@@ -32,7 +32,7 @@ The experiments are conducted on:
 
 # Dataset Structure
 To use your own dataset, follow this structure:
-dataset/ 
+'''dataset/ 
 |- class_0/ 
 |     |- img1.jpg 
 |     |- img2.jpg 
@@ -40,7 +40,7 @@ dataset/
 |     |-  img1.jpg  
 |- class_2/ 
 |- class_3/
-
+'''
 # Supported Modes
 - Binary classification (2 classes)
 - Multi-class classification (4 LDH stages)
