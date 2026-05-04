@@ -15,6 +15,7 @@ This repository implements DMSFA-Net, a deep learning framework designed for:
 -Multi-scale feature extraction
 -Frequency-aware representation learning
 -Attention-based lesion localization
+
 # Model Components
 - EfficientNetB0 backbone
 - Multi-scale convolutional fusion
@@ -22,10 +23,23 @@ This repository implements DMSFA-Net, a deep learning framework designed for:
 - Hybrid attention mechanisms
 - Grad-CAM alignment loss
 
+# Project Structure
+├── config.py
+├── data_loader.py
+├── dataset.py
+├── model.py
+├── train.py
+├── evaluation.py
+├── gradcam.py
+├── main.py
+├── requirements.txt
+└── README.md
+
 # Dataset
 The experiments are conducted on:
 - Sagittal-LDH-MRI Dataset (Binary Classification)
 - Axial-LDH-MRI Dataset (Multi-class Classification)
+
 # Note:
 - Datasets are publicly available
 - Due to privacy, datasets are not included in this repository
@@ -42,6 +56,10 @@ dataset/
 |- class_2/ 
 |- class_3/
 ```
+# Dataset Path
+Update dataset path in config.py:
+DATA_DIRECTORY = "path/to/dataset"
+
 # Supported Modes
 - Binary classification (2 classes)
 - Multi-class classification (4 LDH stages)
