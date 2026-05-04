@@ -35,7 +35,7 @@ This repository implements DMSFA-Net, a deep learning framework designed for:
 ├── main.py
 ├── requirements.txt
 └── README.md
-
+```
 # Dataset
 The experiments are conducted on:
 - Sagittal-LDH-MRI Dataset (Binary Classification)
@@ -112,7 +112,7 @@ If you use this work, please cite:
   journal={The Visual Computer},
   year={2026}
 }
-
+```
 # DOI and Archival Link
 A permanent archived version of this repository is available at:
 https://doi.org/xxxxxx
