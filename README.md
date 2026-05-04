@@ -84,11 +84,11 @@ To ensure reproducibility:
 - NVIDIA GPU (A100)
 - Python 3.8+
 
-# Citation
+## Citation
 If you use this work, please cite:
+```bibtex
 @article{chouhan2026dmsfanet,
-  title={ Frequency-Aware Multi-Scale Visual Feature Learning for MRI-Based Lumbar Disc Herniation
-Classification},
+  title={ Frequency-Aware Multi-Scale Visual Feature Learning for MRI-Based Lumbar Disc Herniation Classification},
   author={Chouhan, A., Chauhan, K., Mitharwal, R. and Varma, T.},
   journal={The Visual Computer},
   year={2026}
