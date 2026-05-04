@@ -24,6 +24,7 @@ This repository implements DMSFA-Net, a deep learning framework designed for:
 - Grad-CAM alignment loss
 
 # Project Structure
+```bash
 ├── config.py
 ├── data_loader.py
 ├── dataset.py
