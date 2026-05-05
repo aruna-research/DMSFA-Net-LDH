@@ -100,7 +100,7 @@ To ensure reproducibility:
  
 # Hardware & Software
 -	TensorFlow 2.15
-- NVIDIA GPU (A100)
+- NVIDIA GPU (T4)
 - Python 3.8+
 
 ## Citation
@@ -115,7 +115,7 @@ If you use this work, please cite:
 ```
 # DOI and Archival Link
 A permanent archived version of this repository is available at:
-https://doi.org/xxxxxx
+https://doi.org/10.5281/zenodo.20039802
 
 # Contact
 Aruna Chouhan
