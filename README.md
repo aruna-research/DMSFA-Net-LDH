@@ -107,9 +107,9 @@ To ensure reproducibility:
 If you use this work, please cite:
 ```bibtex
 @article{chouhan2026dmsfanet,
-  title={ Frequency-Aware Multi-Scale Visual Feature Learning for MRI-Based Lumbar Disc Herniation Classification},
-  author={Chouhan, A., Chauhan, K., Mitharwal, R. and Varma, T.},
-  journal={The Visual Computer},
+  title={Frequency-Aware Multi-Scale Visual Feature Learning for MRI-Based Lumbar Disc Herniation Classification},
+  author={Chouhan, Aruna and Chauhan, Krishna and Mitharwal, Rajendra and Varma, Tarun},
+  note={Submitted to The Visual Computer},
   year={2026}
 }
 ```
