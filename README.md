@@ -1,15 +1,15 @@
 # DMSFA-Net: Frequency-Aware Multi-Scale Visual Learning for LDH Classification
 
-# Related Publication
+## Related Publication
 This repository contains the official implementation of the following manuscript:
 "Frequency-Aware Multi-Scale Visual Feature Learning for MRI-Based Lumbar Disc Herniation Classification"
 Submitted to: The Visual Computer (Springer)
 
-# Important Notice
+## Important Notice
 This code is directly associated with the above manuscript.
 If you use this code or any part of this implementation, please cite our paper.
 
-# Overview
+## Overview
 This repository implements DMSFA-Net, a deep learning framework designed for:
 -Lumbar Disc Herniation (LDH) classification
 -Multi-scale feature extraction
