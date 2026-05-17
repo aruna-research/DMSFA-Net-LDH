@@ -117,7 +117,7 @@ To ensure reproducibility:
   - Translation and flipping
  
 ## Results
-The proposed model achieves strong performance :
+The proposed model achieves strong performance:
 - 97.38% accuracy for binary classification
 - 96.71% accuracy for multi-class classification
 
