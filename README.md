@@ -28,18 +28,39 @@ This repository implements DMSFA-Net, a deep learning framework designed for:
 ├── config.py
 ├── data_loader.py
 ├── dataset.py
-├── model.py
-├── train.py
 ├── evaluation.py
 ├── gradcam.py
 ├── main.py
+├── model.py 
+├── train.py
 ├── requirements.txt
 └── README.md
 ```
+# Installation
+Clone the repository:
+git clone https://github.com/aruna-research/DMSFA-Net-LDH.git
+cd DMSFA-Net-LDH
+
+# Install dependencies:
+pip install -r requirements.txt
+
+# Hardware & Software Requirements
+-	TensorFlow 2.15
+- NVIDIA GPU (T4)
+- Python 3.8+
+
 # Dataset
 The experiments are conducted on:
 - Sagittal-LDH-MRI Dataset (Binary Classification)
 - Axial-LDH-MRI Dataset (Multi-class Classification)
+
+# Dataset Information
+The MRI datasets used in this work were obtained from publicly available sources. For the experiments, the original MRI images were organized into sagittal binary-class and axial multi-class LDH classification subsets based on the study requirements.
+Image preprocessing is performed dynamically within the training pipeline using the provided source code. Since these dataset splits were specifically prepared for this study, they are not redistributed separately via the repository.
+Researchers can reproduce the experiments using the publicly available datasets and the implementation details provided in the manuscript and repository documentation.
+
+# Original Dataset Reference
+S. Sudirman \textit{et al.}, “MATLAB source code for developing ground truth dataset, semantic segmentation, and evaluation for the lumbar spine MRI dataset,” \textit{Mendeley Data}, 2019., publicly available lumbar spine MRI dataset.
 
 # Note:
 - Datasets are publicly available
@@ -65,43 +86,39 @@ DATA_DIRECTORY = "path/to/dataset"
 - Binary classification (2 classes)
 - Multi-class classification (4 LDH stages)
 
-# Installation
-Clone the repository:
-git clone https://github.com/aruna-research/DMSFA-Net-LDH.git
-cd DMSFA-Net-LDH
-
-# Install dependencies:
-pip install -r requirements.txt
-
 # Training
-Run the training pipeline:
+Run the training pipeline using:
 python main.py
 
-# Results
-The proposed model achieves strong performance :
-- 97.38% accuracy for binary classification
-- 96.71% accuracy for multi-class classification
-
-# Grad-CAM Visualization
-The model provides interpretability using Grad-CAM:
-- Highlights important regions
-- Aligns with lesion maps
-- Improves clinical trust
+# Evaluation
+Run evaluation using:
+python evaluation.py
 
 # Reproducibility
 To ensure reproducibility:
 - Fixed random seed
-- Input size: 224 × 224
+- Input image size: 224 × 224
 - Standard preprocessing and normalization
 - Data augmentation:
   - Rotation (~±20°)
   - Zoom (0.8–1.2)
   - Translation and flipping
  
-# Hardware & Software
--	TensorFlow 2.15
-- NVIDIA GPU (T4)
-- Python 3.8+
+# Results
+The proposed model achieves strong performance :
+- 97.38% accuracy for binary classification
+- 96.71% accuracy for multi-class classification
+
+# Grad-CAM Visualization
+The proposed framework provides interpretable lesion-aware visualizations using Grad-CAM alignment.
+The generated attention maps:
+- Highlights important regions
+- Aligns with lesion maps
+- Improves clinical trust
+
+# DOI and Archival Link
+A permanent archived version of this repository is available at:
+https://doi.org/10.5281/zenodo.20039802
 
 ## Citation
 If you use this work, please cite:
@@ -113,9 +130,8 @@ If you use this work, please cite:
   year={2026}
 }
 ```
-# DOI and Archival Link
-A permanent archived version of this repository is available at:
-https://doi.org/10.5281/zenodo.20039802
+License
+This project is released under the MIT License.
 
 # Contact
 Aruna Chouhan
