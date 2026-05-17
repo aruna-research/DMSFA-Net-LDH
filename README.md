@@ -13,6 +13,7 @@ If you use this code or any part of this implementation, please cite our paper.
 
 ## Overview
 This repository implements DMSFA-Net, a deep learning framework designed for:
+
 -Lumbar Disc Herniation (LDH) classification
 -Multi-scale feature extraction
 -Frequency-aware representation learning
@@ -45,7 +46,7 @@ git clone https://github.com/aruna-research/DMSFA-Net-LDH.git
 cd DMSFA-Net-LDH
 ```
 
-## Install dependencies:
+## Dependency Installation:
 ```bash
 pip install -r requirements.txt
 ```
@@ -66,7 +67,7 @@ Image preprocessing is performed dynamically within the training pipeline using 
 Researchers can reproduce the experiments using the publicly available datasets and the implementation details provided in the manuscript and repository documentation.
 
 ## Original Dataset Reference
-S. Sudirman \textit{et al.}, “MATLAB source code for developing ground truth dataset, semantic segmentation, and evaluation for the lumbar spine MRI dataset,” \textit{Mendeley Data}, 2019., publicly available lumbar spine MRI dataset.
+S. Sudirman et al., “MATLAB source code for developing ground truth dataset, semantic segmentation, and evaluation for the lumbar spine MRI dataset,” Mendeley Data, 2019., publicly available lumbar spine MRI dataset.
 
 ## Note:
 - Datasets are publicly available
@@ -84,6 +85,7 @@ dataset/
 |- class_2/ 
 |- class_3/
 ```
+
 ## Dataset Path
 Update dataset path in config.py:
 DATA_DIRECTORY = "path/to/dataset"
@@ -140,7 +142,8 @@ If you use this work, please cite:
   year={2026}
 }
 ```
-##License
+
+## License
 This project is released under the MIT License.
 
 ## Contact
