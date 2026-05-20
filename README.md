@@ -14,10 +14,10 @@ If you use this code or any part of this implementation, please cite our paper.
 ## Overview
 This repository implements DMSFA-Net, a deep learning framework designed for:
 
--Lumbar Disc Herniation (LDH) classification
--Multi-scale feature extraction
--Frequency-aware representation learning
--Attention-based lesion localization
+- Lumbar Disc Herniation (LDH) classification
+- Multi-scale feature extraction
+- Frequency-aware representation learning
+- Attention-based lesion localization
 
 ## Model Components
 - EfficientNetB0 backbone
