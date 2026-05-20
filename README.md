@@ -1,7 +1,7 @@
 # DMSFA-Net: Frequency-Aware Multi-Scale Visual Learning for LDH Classification
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20065126.svg)](https://doi.org/10.5281/zenodo.20065126)
-
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20302246.svg)](https://doi.org/10.5281/zenodo.20302246)
+   
 ## Related Publication
 This repository contains the official implementation of the following manuscript:
 "Frequency-Aware Multi-Scale Visual Feature Learning for MRI-Based Lumbar Disc Herniation Classification"
@@ -130,7 +130,7 @@ The generated attention maps:
 
 ## DOI and Archival Link
 A permanent archived version of this repository is available at:
-https://doi.org/10.5281/zenodo.20065126
+https://doi.org/10.5281/zenodo.20302246
 
 ### Citation
 If you use this work, please cite:
