@@ -5,7 +5,7 @@
 ## Related Publication
 This repository contains the official implementation of the following manuscript:
 "Frequency-Aware Multi-Scale Visual Feature Learning for MRI-Based Lumbar Disc Herniation Classification"
-Submitted to: The Visual Computer (Springer)
+Submitted to: Multimedia Systems (Springer)
 
 ## Important Notice
 This code is directly associated with the above manuscript.
